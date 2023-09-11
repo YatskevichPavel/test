@@ -10,7 +10,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.tomcat.url>http://localhost:8080/manager/text</maven.tomcat.url>
