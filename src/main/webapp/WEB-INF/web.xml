@@ -16,4 +16,22 @@
         <servlet-name>FirstServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+
+    <filter>
+        <filter-name>SecurityFilter</filter-name>
+        <filter-class>by.itacademy.jd2.firstapp.SecurityFilter</filter-class>
+        <init-param>
+            <param-name>active</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <init-param>
+            <param-name>another key</param-name>
+            <param-value>another value</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <servlet-name>HelloServlet</servlet-name>
+    </filter-mapping>
 </web-app>
